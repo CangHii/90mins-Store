@@ -15,15 +15,15 @@
 
 ### Cách chạy dự án
 1. Backend:
-  cd backend
-  npm install
-  npx nodemon server.js
+  > cd backend   
+  > npm install   
+  > npx nodemon server.js   
 2. Frontend:
-  cd frontend
-  npm install
-  npm run dev
+  > cd frontend   
+  > npm install   
+  > npm run dev   
 3. Mở http://localhost:5173
 
-Chúc thầy cô chấm bài tập lớn vui vẻ! 🏆
+Chúc thầy chấm bài tập lớn vui vẻ! 🏆
 
 © 2025 CangHii
