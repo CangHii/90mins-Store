@@ -13,3 +13,5 @@ export const createOrder = (data) => axios.post(`${API_URL.replace('/products', 
 export const getOrders = () => axios.get('http://localhost:5000/api/orders');
 // Xóa đơn hàng
 export const deleteOrder = (id) => axios.delete(`http://localhost:5000/api/orders/${id}`);
+// Xác nhận đơn hàng
+export const confirmOrder = (id) => axios.put(`http://localhost:5000/api/orders/${id}/confirm`);
